@@ -1,3 +1,3 @@
 # bestconstruct
 
-- [bestconstruct](https://www.bestconstruct.ru/).
+- [bestconstruct] (https://www.bestconstruct.ru/)
