@@ -1,0 +1,92 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #263238;
+    z-index: 9999999999;
+    display: none;
+}
+
+.load{
+    display: block;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    top: 45%;
+    position: relative;
+    margin: 0px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #433f4e;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+#category{
+    width: 500px;
+}
+.ms-parent{
+    width: 100%!important;
+    display: block!important;
+}
+.ms-parent button{
+    height: 35px;
+}
+@-webkit-keyframes sk-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+.btn-delete-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.border-mean-img{
+    border: 3px solid red;
+}
+.slider-name{
+    left: 0;
+    font-size: 17px;
+    bottom: 0;
+}
+.body-slider{
+    min-height: 200px;
+}
+.make-mean-btn{
+    background: #EED;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+}
